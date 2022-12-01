@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Faculty.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>CVR FACULTY</title>
+    <link rel="icon" href="./Images/logo.jpg">
+</head>
+<body>
+    <header class="head">
+        <nav>
+            <div class="first" >
+                <img src="./Images/logo.png" alt="CVR Logo" id="logo"  >  
+            </div>
+        </nav>
+        
+        <div class="menu">
+          
+                <div class="links-unordered">
+                    <a class="toggle-button" href="#" style="background-color: white; margin-left: 10px;"><span style="font-size :16px; color: rgb(0, 0, 0); font-weight: 500; ">Departments</span></a>
+                    <ul style="display:none; list-style-type: none;" class="list">
+                      <li><a href="./CSE.html" target="_blank">CSE</a></li>
+                      <li><a href="./IT.html" target="_blank">IT</a></li>
+                      <li><a href="#">ET</a></li>
+                      <li><a href="./ECE.html" target="_blank">ECE</a></li>
+                      <li><a href="./EIE.html" target="_blank">EIE</a></li>
+                      <li><a href="./EEE.html" target="_blank">EEE</a></li>
+                      <li><a href="./CIVIL.html" target="_blank" >CIVIL</a></li>
+                      <li><a href="./MECHANICAL.html" target="_blank">MECHANICAL</a></li>
+                      <li><a href="./H&S.html" target="_blank">H & S</a></li>
+                      
+                    </ul>
+                </div>
+            <div class="head" style="display:flex; flex-direction : row">
+                <section><h3 style="color: white;">Faculty Information</h3></section>
+                   
+               
+              
+            </div>
+            
+        </div><br>
+    
+            
+       
+        <a href="#" onclick="openForm()"><span style="margin-left: 82%;
+            font-size: 24px;
+            color: rgb(0, 0, 0);
+            /* background-color:rgb(27, 24, 24); */
+            background-size: 50px;" class="login">Login As Admin</span></a>
+    <div class="form-popup" id="myForm">
+        <form action="" class="form-container" >
+            <h1>Login</h1>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="password"required>
+    
+
+        <button type="submit" class="btn" onclick="validate()">Login</button>
+        <span><a href="#" style="text-align:right ;">Forgot Password</a></span><br><br>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+        
+        
+        <section>
+                <div class="pics">
+                    <br>
+                    <img src="./Images/cvrpic1.webp" alt="CVR" class="photos" >
+                    <!-- <img src="./Images/cvrpic2.jfif" alt="CVR" class="photos"> -->
+                    <!-- <img src="./Images/faculty.jfif" alt="faculty" class="photos"> -->
+                    <img src="./Images/cvrpic3.jfif" alt="faculty" class="photos">
+                    <img src="./Images/cvrpic4.jpg" alt="faculty" class="photos">
+                    <img src="./Images/cvrpic5.jpg" alt="faculty" class="photos">
+                    <img src="./Images/cvrpic6.jpg" alt="faculty" class="photos">
+
+                </div>
+            </section>
+
+            <section>
+                <div class="vision">
+                    <h2 style="text-align: center; font-weight: 600;"><b><u>Vision of the Institute</u></b></h2><br>
+                    <p style="text-align: center; font-weight: 500; font-size: 18px;">To be a state of the art institution of engineering in pursuit of excellence, in the service of society.</p>
+                    <h2 style="text-align: center; font-weight: 600;"><b><u>Mission of the Institute</u></b></h2><br>
+                    <p style="text-align: center; font-weight: 500; font-size: 18px;">To excel in providing quality education at under graduate and graduate levels. <br>To encourage research and innovation. <br>
+                        To provide infrastructure and facilities to meet the latest technological needs. <br>
+                        To establish Centres of Excellence through active interaction with industry. <br>
+                        To nurture students towards holistic development with human values and ethics.</p>
+                    
+                </div> <br><br>
+            </section>
+        
+        <div class="mainbody" m-4 p-4>
+           <div class="bodyshape">
+                <div class="col-lg-4" id="firstimage"><h2 style="color: black;"> <u>Chairman</u></h2>
+                    <img src="./Images/chairman.jpg" alt="Chairman" class="image"><br><br>
+                    <span style="font-size: 20px; font-weight: 500;"><b>Dr. Cherabuddi Raghava</b></span>
+                    <div class="fullcap1">Chairman, Professor <br>M.S, Ph.D(CSE)<br><a href="#">View Profile</a></div> <br>
+                </div>
+                <div class="col-lg-4" id="secondimage"><h2 style="color: black;"> <u>Principal</u></h2>
+                    <img src="./Images/principal.jpg" alt="Principal" class="image"><br><br>
+                    <span style="font-size: 20px; font-weight: 500;"> <b>Dr. K Ram Mohan Reddy</b></span>
+                    <div class="fullcap2">Principal <br>B Tech(Civil), Ph.D<br><a href="#">View Profile</a></div><br>
+                </div>
+                <div class="col-lg-4" id="thirdimage"><h2 style="color: black;"> <u>Vice Principal</u></h2>
+                    <img src="./Images/vc.jpg" alt="Vice Principal" class="image"> <br><br>
+                    <span style="font-size: 20px; font-weight: 500;"><b>Prof. L C Siva Reddy</b></span>
+                    <div class="fullcap3">Prof. & Vice Principal<br>M.Phil(CN)<br><a href="./Sivareddy.html" target="_blank">View Profile</a></div><br>
+                </div>
+           </div>
+           
+        </div><br><br>
+        <div class="container">
+        <button type="button" id="btn" onclick="scrolltoTop()"><i class="fa fa-arrow-up"></i></button></div>
+        <footer>
+           
+            <div  class="footer">
+                <p>CVR College Of Engineering,<br>Vastunagar, Mangalpalli (V), Ibrahimpatnam (M),<br>Rangareddy (D), Telangana 501 51</p>
+                <p><i class="bi bi-telephone"> 08414 661 601</i></p>
+                <p>Mail : <a href="" target="_blank">principal@cvr.ac.in</a></p>
+                <a href="https://twitter.com/cvrcoenews?lang=en" target="_blank"><i class="bi bi-twitter" style="color: white;"></i></a>&nbsp;
+                <a href="https://www.facebook.com/cvr.coe/" target="_blank"><i class="bi bi-facebook" style="color: white;"></i></a>&nbsp;
+                <a href="https://www.instagram.com/cvr_community/?hl=en" target="_blank"><i class="bi bi-instagram" style="color: white;"></i></a>&nbsp;
+                <a href="https://in.linkedin.com/school/cvrcoe/" target="_blank"><i class="bi bi-linkedin" style="color: white;"></i></a>
+           
+            </div>
+            
+        </footer>  
+
+    </header>
+    <script>
+        var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+    var x = document.getElementsByClassName("photos");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
+    
+   <script src="./Faculty.js"></script>
+</body>
+</html>

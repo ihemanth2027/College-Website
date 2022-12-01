@@ -1,0 +1,279 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: #dedede;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    
+}
+header {
+    position: relative;
+    width: 80%;
+    height:90%;
+    background: #fff;
+    box-shadow: 0px 0px 50px -1px rgb(0,0,0);
+    padding: 0px 30px; 
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.first{
+    background-color:black;
+    width: auto;
+    height: 120px;
+    padding: 10px;
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 20px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+.head::-webkit-scrollbar {
+     display: none;                      /*To Hide ScrollBar */
+  }
+header nav div #logo{
+    height: 80px;
+}
+#login{
+    text-align: right;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+
+   
+    color: #dedede;
+     /* padding-top: 1px;  */
+    border: 1px solid black;
+    background-color: black;  
+}
+
+.head{
+    /* display:flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    margin : auto auto auto auto;
+    padding-bottom: 1px;
+    
+ }
+ 
+.links-unordered {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+  }
+  
+  .links-unordered {
+    margin-top: 20px;
+    min-height: 30px;
+  }
+  
+  .links-unordered .toggle-button {
+    background-color: #dedede;
+    text-decoration: none;
+    padding: 12px 16px 12px 16px;
+    transition: 0.2s;
+    border: 1px solid black;
+    /* background-color: black; */
+    border-radius: 10px;
+    border-bottom: 10px;
+    /* margin: auto; */
+    /* width: 50px; */
+  }
+  
+  .links-unordered .toggle-button:hover,
+  .links-unordered .toggle-button:active,
+  .links-unordered .toggle-button:focus,
+  .links-unordered .toggle-button:visited {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .links-unordered .toggle-button:hover {
+    border-width: 2px;
+  }
+  
+  .links-unordered ul {
+    position: absolute;
+    top: 10px;
+    margin-top: 25px;
+    padding-inline-start: 20px;
+  }
+  
+  .links-unordered ul li {
+    line-height: 25px;
+    padding-left: 15px;
+    margin-left: 2px;
+    height: fit-content;
+    box-shadow: 0px 1px 1px -1px rgb(0,0,0);
+  }
+  
+  .links-unordered a {
+    text-decoration: none;
+    color: black;
+  }
+  .links-unordered a .list{
+    background-color: #dedede;
+    box-sizing: border-box;
+}
+
+.photos{
+    width: 100%;
+    height: 400px;
+    display: none;
+    border-radius: 10px;
+}
+
+.list{
+    background-color: white;
+    margin-left: 13px;
+    /* margin-right: 200px; */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container1{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    box-shadow: 0px 0px 50px -1px rgb(0,0,0);
+    padding: 0px 30px; 
+    display: flex;
+    flex-wrap: wrap;
+    /* overflow: hidden; */
+}
+  div .bodyshape{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+ .image{
+    border-radius: 5%;
+    width : 280px;
+    height : 250px;
+}
+  
+#firstimage{
+    position: relative;
+} 
+.fullcap1{
+    font-size: 18px;
+    box-sizing: border-box;
+    width: 50%;
+    height: 10%;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(67, 64, 64);
+    color: white;
+    visibility: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+#firstimage:hover .fullcap1{
+    visibility: visible;
+    opacity: 1;
+}
+#secondimage{
+    position: relative;
+}
+.fullcap2{
+    font-size: 18px;
+    box-sizing: border-box;
+    width: 50%;
+    height: 10%;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(67, 64, 64);
+    color: white;
+    visibility: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+#secondimage:hover .fullcap2{
+    visibility: visible;
+    opacity: 1;
+}
+#thirdimage{
+    position: relative;
+}
+.fullcap3{
+    font-size: 18px;
+    box-sizing: border-box;
+    width: 50%;
+    height: 10%;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    background-color:  rgb(67, 64, 64);
+    color: white;
+    visibility: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+#thirdimage:hover .fullcap3{
+    visibility: visible;
+    opacity: 1;
+}
+.container button{
+    /* display: none; */
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+    background: white;
+    padding: 8px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.container button i{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+#footer{
+    height: fit-content;
+    text-align: center;
+    color: #dedede;
+    background-color: black;
+}
+footer .footer{
+
+    text-align: center; 
+    font-size: 16px; 
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+
+
+

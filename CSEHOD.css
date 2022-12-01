@@ -1,0 +1,50 @@
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: #dedede;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    position: relative;
+    width: 70%;
+    height: 90%;
+    background: #fff;
+    box-shadow: 0px 0px 50px -1px rgb(0,0,0);
+    padding: 0px 30px; 
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+.head1::-webkit-scrollbar {
+    display: none;
+    /*To Hide ScrollBar */
+}
+.first{
+    background-color: black;
+    width: auto;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: #fff;
+    /* justify-content: space-between; */
+    margin-top: 20px;
+}
+.image{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.image img{
+    border-radius: 10px;
+    box-shadow: 5px solid black;
+}
